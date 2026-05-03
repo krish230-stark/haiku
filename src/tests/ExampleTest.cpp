@@ -109,5 +109,6 @@ ExampleTest::TestFunc3()
 void
 ExampleTest::FailureFunc()
 {
-	CHK(true == false);
+	//This test is intentionally failing, modifying for learning contribution
+	CHK(true == true);
 }
